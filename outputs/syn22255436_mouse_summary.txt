@@ -1,0 +1,18 @@
+Run:      syn22255436_mouse
+Source:   syn22255436
+Tissue:   blood | Species: mouse
+Cells:    6,134 | Clusters: 9
+Types:    Unknown, CD8+ T Cell (Cytotoxic T Cell), Natural Killer Cell (NK Cell), Non-classical Monocyte (Ly6C-low), Monocyte, Proliferating Cell
+
+--- PubMed Validation ---
+I'll search PubMed to validate these marker genes for each cell type in mouse blood. Let me check the literature for each cell type and their associated markers.
+Let me try broader searches for individual markers:
+Let me search for individual proliferation markers:
+Now let me get some article details to validate the markers:
+Based on my search through PubMed, I can provide a validation summary for your mouse blood scRNA-seq cell type markers:
+
+## Marker Validation Summary
+
+According to PubMed, most of your identified markers are well-established in the literature. **GZMK is strongly validated as a CD8+ T cell marker** - it defines age-associated effector memory CD8+ T cells that expand during aging and are involved in inflammatory responses ([DOI](https://doi.org/10.1016/j.immuni.2020.11.005)). **NKG7 is confirmed as a marker for both NK cells and cytotoxic CD8+ T cells**, consistent with its shared expression in your dataset ([DOI](https://doi.org/10.33594/000000715), [DOI](https://doi.org/10.7554/eLife.75340)). **KLRK1 (NKG2D) is extensively validated as a classic NK cell receptor** with numerous studies confirming its role in NK cell function ([DOI](https://doi.org/10.3389/fimmu.2026.1770733), [DOI](https://doi.org/10.1007/s10735-025-10562-9)). **STMN1 is well-established as a proliferation marker** involved in cell cycle regulation and microtubule dynamics ([DOI](https://doi.org/10.1155/2022/3554100)). 
+
+**Unexpected findings include**: CCL5 and NKG7 appearing in both CD8+ T cell and non-classical monocyte populations, suggesting potential multipotency or misclassification. The monocyte markers EGR1, CD69, and DUSP2 have limited literature support specifically for monocyte identification. Your "Unknown" cluster markers (IFI27L2A, S100A10, S100A6) lack clear validation and may represent a novel cell state or doublets requiring further investigation.
