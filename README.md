@@ -1,4 +1,13 @@
 # AutoAnnotSC
+
+![Language](https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python)
+![AI](https://img.shields.io/badge/AI-Anthropic%20Claude-orange?style=flat-square)
+![Framework](https://img.shields.io/badge/Framework-Scanpy-blue?style=flat-square)
+![Data](https://img.shields.io/badge/Data-Synapse-lightgrey?style=flat-square)
+![Literature](https://img.shields.io/badge/Validation-PubMed%20MCP-green?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+
 Automated scRNA-seq cell type annotation pipeline. Downloads data from Synapse or accepts local files, runs standard preprocessing, annotates clusters using [CellAnnotator](https://github.com/LucasESBS/cell-annotator) + Claude, and validates marker genes against PubMed — all from a single command.
 
 ---
